@@ -5,8 +5,13 @@
     <artifactId>spring-velocity-views</artifactId>
     <packaging>jar</packaging>
     <name>Spring Velocity views</name>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <description>Retro Apache Velocity views for modern Spring Boot releases</description>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
 
     <distributionManagement>
         <repository>
@@ -28,7 +33,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.2</version>
+        <version>3.0.5</version>
     </parent>
 
     <dependencies>
